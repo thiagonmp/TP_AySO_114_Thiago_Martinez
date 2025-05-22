@@ -1,0 +1,351 @@
+wd
+pwd
+echo so
+echo $home
+echo $ HOME
+echo $HOME
+ls
+1s -1
+ls -l
+cat README 
+mkdir Clase 4
+mkdir Clase4
+ls
+Clase4 pwd
+Clase4 cat > textol.txt
+linea 1
+/Clase4$ cat > textol.txt
+cd clase4
+ls -l
+cd Clase4/
+cat > textol.txt
+cat textol.txt 
+ls -l
+cat << FIN > texto2.txt
+linea 
+linea 5
+linea 6
+FIN
+
+cat texto2.txt 
+cat * .txt
+cat textol.txt  >> texto2.txt 
+cat texto2.txt 
+cat << EOF > texto3.txt
+linea 7
+linea 8
+linea 9
+EOF
+
+ls -l
+cat textol.txt texto2.txt texto3.txt >texto4.txt
+ls -l
+cat texto4.txt 
+man gref
+man grep
+grep texto2.txt 
+ls
+cd Clase4
+history
+grep -n 8 texto4.txt 
+cd ..
+tree
+apt install tree
+sudo apt intall tree
+sudo apt  install tree
+sudo snap  install tree
+tree
+cd Clase4
+pwd
+touch texto5.txt
+ls -l
+cp texto2.txt textocp.txt
+ls -l
+cat textocp.txt 
+cat texto2.txt 
+mv textocp.txt textocp2.txt
+ls -l
+mv textol.txt texto1.txt
+ls-l
+ls -l
+mv textocp2.txt /home/vagrant
+ls -l
+ls -l /home/vagrant
+cd ..
+rm Clase 4/
+rm -r Clase
+rm -r 4
+rm -r Clase4
+ls -l
+id
+w
+pwd
+mkdir -p {clase1,clase2}/{teoria,practica}
+ls -l
+tree
+mkdir -p {compra1/vendedor{1..3},compra2/{vendedor{1..3},repositor}}
+tree
+cd
+ls -l
+cd clase
+cd clase1
+cd -1
+cd -l
+cd
+chown
+chown LaFLDSMDFR:clases clase1
+rmdir compra1/
+sudo rmdir compra1/
+mkdir Clase5
+ls -l
+cd clase5
+cd Clase5
+echo hola
+echo hola > texto1.txt
+ls -l
+chmod 666 texto1.txt 
+ls -l
+chmod 676 texto1.txt 
+ls -l
+echo chau > texto1.txt 
+chmod 666 texto1.txt 
+mkdir texto2.txt
+ls -l
+cd..
+cd ..
+ls -l
+chmod -R 777 Clase5/
+ls -l
+cd Clase5/
+ls -l
+echo chau > texto2.txt/
+ls -l
+chmod 600 texto1.txt 
+ls -l
+echo Mi primer script
+cat << FIN > script1
+pwd
+ls -l
+echo m primer script
+echo funciono ok
+FIN
+
+ls -l
+cat script1 
+bash script1 
+vim script2.sh
+ls -l
+chmod 764 script2.sh 
+ls -l
+./script2.sh
+cd..
+cd ..
+pwd
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ls -la
+ls -la .ssh/
+cat .ssh/id_ed25519.pub
+ls -l
+s -
+ls -l
+pwd
+mkdir repogit
+cd repogit
+git clone git@github.com:thiagonmp/TP_AySO_114_Thiago_Martinez.git
+ls -l
+pwd
+ls -l
+cd repogit/
+ls -l
+cd TP_AySO_114_Thiago_Martinez/ls -l
+cd TP_AySO_114_Thiago_Martinez/
+ls -l
+cd ..
+cd TP_AySO_114_Thiago_Martinez/
+cat /etc/os/release
+cat /etc/os-release
+grep -i Home_url /etc/os-release > datos_
+url.txt
+git status
+ls -l
+git status
+git add
+git add .
+git status
+git commit -m "subo el archivo datos_URL"
+git config --global user.name "thiagonmp"
+git commit -m "subo el archivo datos_URL"
+git status
+git push
+exit logout
+pwd
+ls -l
+ls -la
+cd repogit/
+ls -la
+cat TP_AySO_114_Thiago_Martinez/
+ls -l
+cat /etc/os-release
+cd TP_AySO_114_Thiago_Martinez/
+cat /etc/os-release
+grep home_url /etc/os-release 
+man grep
+grep -i Home_url /etc/os-release >
+datos_url.txt
+man grep
+grep HOME_URL/etc/os.release
+pwd
+ls -l
+cd repogit/
+ls -la
+cd TP_AySO_114_Thiago_Martinez/
+ls -l
+grep -i home_url/etc/os-release
+ls -l
+cd repogit
+cd TP_AySO_114_Thiago_Martinez/
+grep <parámetro> Home_url /etc/os-release >
+datos_u
+grep <parámetro> Home_url /etc/os-release >
+datos_
+cd ..
+cd TP_AySO_114_Thiago_Martinez/
+grep -i Home_url /etc/os-release > datos_
+pwd
+ls -la
+cat datos_ 
+cd ..
+id -un
+ls -la
+cd repogit/
+cd TP_AySO_114_Thiago_Martinez/
+whoami
+mkdir datos_usuario.txt
+ls -la
+echo "usuaio
+
+d
+s
+ 
+
+
+
+
+
+fin
+FIN
+echo
+exit
+cd repogit/
+cd TP_AySO_114_Thiago_Martinez/
+echo "Usuario=$(whoami)" > datos_usuario.txt/
+echo "Usuario=$(whoami)
+" > datos_usuario.txt
+cat datos_usuario.txt/
+echo "Usuario="$(whoami) > datos_usuario.txt/
+cd datos_usuario.txt/
+ls -l
+cd ..
+echo "Usuario="$(whoami) > datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git status
+rm case sen
+ls -l
+rm ´case sen´
+rm case\ sen 
+ls -l
+git status
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+cd ..
+git status
+cd TP_AySO_114_Thiago_Martinez/
+git status
+git commit -m "ADD:ejercicio sobre datos_usuarios.txt"
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -la
+rm datos_usuario.txt/
+rm datos_usuario.txt
+rm -r datos_usuario.txt
+ls -la
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -ls
+git status
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+git config --global user.email "tmartinezperis@gmail.com"
+git config --global user.name "thiagonmp"
+git commit -m
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep 
+tail -n1
+ls -la
+cd repogit/
+cd TP_AySO_114_Thiago_Martinez/
+ls -la
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git push
+git status
+git add .
+git status
+git push
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cat <<EOF >> README.md
+Alumno: <Tu-Nombre>
+División: <Numero>
+Turno: <Tu-Turno>
+EOF
+
+cat README.md 
+EOF
+cd README.md
+rm -r README.md/
+head -n -3 README.md > temp.md && mv temp.md README.md
+cat README.md 
+cat <<EOF >> README.md
+Alumno: <Thiago_Martinez>
+División: <114>
+Turno: <Mañana>
+EOF
+
+git status
+git add .
+git status
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git pus
+git push
+mkdir {materia1,materia2}/{uni1,uni2,uni3}
+mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
+tree
+git status
+git push
+bash script_dir.sh
+nano
+cd repogit/
+cd TP_AySO_114_Thiago_Martinez/
+vim script_dir.sh
+ls -l
+rm -r materia1
+rm -r materia2
+ls .l
+ls -l
+git status
+rm -r nano.2856.save 
+git status
+git add .
+git status
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
+ls -l
+history -a
